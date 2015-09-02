@@ -1,31 +1,115 @@
-<HTML>
-<HEAD>
-<META http-equiv='Content-Type' content='text/html; charset=gb2312'>
-<TITLE>Loki`s On The Way</TITLE>
-</HEAD>
+---
+layout: default 
+---
 
+<header id="home-header" style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
+    <a class="list_button" id="info_buttom"><i class="fa fa-puzzle-piece"></i></a>
+    <div class="container">
+        <h1>{{ site.title }}</h1>
+        <ul class="meta">
+            <li>
+                <span>
+                {{ site.tagline }}
+                </span>
+            </li>
+        </ul>
+    </div>
+    <div class="info" id="myinfo">
+        <span>A sky full of stars<i class="fa fa-music"></i>&copy; 2015 &nbsp;&nbsp;Loki</span>
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=77101150&auto=0&height=90" id="audioplay"></iframe>
+    </div>
+</header>
+<article>
+    <section class="cate-menu">
+        <div class="cate-content">
+            <h3>[ CATEGORY ]</h3>
+            <ul class="cate-list">
+                <li data-cate="all">[ all ]<span>{{site.categories | size}}</span></li>
+                {% for category in site.categories %}
+                <li data-cate="{{ category | first }}">
+                    [ {{ category | first }} ]<span>{{ category | last | size }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <a id="cateShow"></a>
+    </section>
+    <div class="container cate-posts">
+        <ul class="posts" data-cate="all">
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <h2>{{ post.title }}</h2>
+                  <span class="date">{{ post.date | date_to_string }}</span>
+                  {{ post.excerpt }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <!-- 分类菜单内容 -->
+        {% for category in site.categories %}
+        <ul class="posts cates" data-cate="{{category | first}}">
+            {% for posts in category  %}
+            {% for post in posts %}
+            {% if post.url %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    <h2>{{ post.title }}</h2>
+                    <span class="date">{{ post.date | date_to_string }}</span>
+                    {{ post.excerpt }}
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+    <a id="returnTop"></a> 
+</article>
 
-<body>
- 	<canvas id="q"></canvas>
- 	<script type="text/javascript">
- 	var s = window.screen;
- 	var width = q.width = s.width;
- 	var height = q.height = s.height;
- 	var letters = Array(256).join(1).split("");
- 	var draw = function () {
- 	q.getContext('2d').fillStyle='rgba(0,0,0,.05)';
- 	q.getContext('2d').fillRect(0,0,width,height);
- 	q.getContext('2d').fillStyle='#0F0';
- 	letters.map(function(y_pos, index){
- 	text = String.fromCharCode(48+Math.round(Math.random()));
- 	x_pos = index * 10;
- 	q.getContext('2d').font='bold 12px san-serif';
- 	q.getContext('2d').fillText(text, x_pos, y_pos);
- 	letters[index] = (y_pos > 758 + Math.random() * 1e4) ? 0 : y_pos + 10;
- 	});
- 	};
- 	setInterval(draw, 35);
- 	</script>
- </body>
-
-</HTML>
+<div class="info_page" id="info-warp">
+    <a class="home_button" id="home_btn"></a>
+    <div class="info_menu">
+        <ul id="list_menu">
+            <li id="list_info" class="active"><i class="fa fa-user"></i>Info</li>
+            <li id="list_contact"><i class="fa fa-tty"></i>Contact</li>
+            <li id="list_about"><i class="fa fa-cube"></i>About</li>
+        </ul>
+    </div>
+    <div class="info_content">
+        <article>
+            <div class="icon_chen"></div>
+            <div class="info_me">
+                <h1>Hello, I'm Chen.</h1>
+                <p>在校本科生，网络工程专业，2016年毕业，目前正处于前端工程师孕育阶段~</p>
+                <p>热衷前端，爱好设计，喜欢摄影。</p>
+                <p>日常爱听音乐，目前爱听的专辑是 Ed Sheeran 的《X》以及 Jason Marz 的《YES!》;
+                    会利用一切空闲时间看美剧 >_<，正在追的剧有《权力的游戏》,《天蝎》,《神盾局特工》等。欢迎相同爱好者打扰~
+                </p>
+                <p>趁我还没有下架 (～￣▽￣)～ 有兴趣的赶紧戳<a href="http://www.chen9.info/myresume/" target="_blank"> [ 简历 ] </a>~</p>
+            </div>
+            <div class="contact_me">
+                <p>If you like here, just go to <a href="https://github.com/zchen9/zchen9.github.io" target="_blank"> [ zchen9'github ] </a> and give me a star ~</p>
+                <p>or Go to <a href="http://www.chen9.info/new_start/2015/05/01/nice-to-meet-U.html"> [ the first post ] </a> and leave me a message ヾ(^▽^*)))</p>
+                <p>or Click them ☟</p>
+                <div class="list_icon">
+                    <a href="https://github.com/zchen9" target="_blank" class="github_button"></a>
+                    <a href="mailto:zhao.zchen9@gmail.com" class="mail_button"></a>
+                    <a href="http://sighttp.qq.com/authd?IDKEY=75e77b7cdf51cde5d2396922c37353bf5a18ee3dcbd38fd3"  target="_blank" class="qq_button"></a>
+                    <a href="http://weibo.com/yoho92" target="_blank" class="weibo_button"></a>
+                </div>
+            </div>
+            <div class="about_here">
+                <b>[ 友情链接 ]</b>
+                <p>
+                    <a href="http://gaohaoyang.github.io" target="_blank">[ Loki ]</a>
+                    |
+                    <a href="http://www.anotherhome.net" target="_blank">[ DIYgod ]</a>
+                </p>
+                <p>Powered By Github &amp; jekyll &amp; 多说</p>
+                <p>&copy;2015  zchen9</p>
+            </div>
+        </article>
+    </div>
+</div>

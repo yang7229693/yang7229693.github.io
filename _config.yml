@@ -1,0 +1,13 @@
+# Site settings
+title: '石沉溪洞'  # Your Title
+tagline: 'To find something interesting '  # A brief tagline for your site
+sidebar_image: /images/cover.jpg
+
+
+# Build settings
+encoding: UTF-8
+markdown: kramdown
+#markdown: redcarpet
+#highlighter: pygments
+highlighter: true
+baseurl: # the subpath of your site, e.g. /blog/
