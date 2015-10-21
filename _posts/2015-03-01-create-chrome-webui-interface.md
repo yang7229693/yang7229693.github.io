@@ -10,7 +10,7 @@ featured_image: /images/chromium_cover.jpg
 
 ####1 创建WebUI页面
 
-WebUI的资源在src/chrome.browser/resources下面，当创建WebUI资源时，需要遵循Web Development Style Guide 下面是一个简单的例子：
+WebUI的资源在src/chrome.browser/resources下面，当创建WebUI资源时，需要遵循[Web Development Style Guide](https://www.chromium.org/developers/web-development-style-guide) 下面是一个简单的例子：
 
 添加html页面
 
