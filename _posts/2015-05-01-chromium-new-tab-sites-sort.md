@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Chromium获取源码"
+title:  "Chromium八宫格排序解析"
 date:  2015-05-01
 categories: Chromium
 featured_image: /images/chromium_cover.jpg
 ---
 
-###Chrome八宫格排序
+###Chromium八宫格排序解析
 
 
 
