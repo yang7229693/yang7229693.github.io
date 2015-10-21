@@ -2,7 +2,7 @@
 layout: post
 title:  "Chromium获取源码"
 date:  2015-02-01
-categories: chromium
+categories: Chromium
 featured_image: /images/cover.jpg
 ---
 
