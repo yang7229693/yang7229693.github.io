@@ -10,7 +10,7 @@ featured_image: /images/cover.jpg
 
 ####C++调用JS函数
 
-!()(../images/webkit_c_js.png)
+![](https://github.com/yang7229693/yang7229693.github.io/blob/master/images/webkit_c_js.png)
 
 如图所示，在browser里，通过IPC，让render去调用webkit中相关函数来执行js代码，然后将执行结果通过IPC，从render返回给browser，这个过程就是chromium中c++调用js函数的一个粗略的过程吧，下面通过代码来看下是如何执行的吧。
 
