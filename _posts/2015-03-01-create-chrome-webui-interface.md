@@ -3,7 +3,7 @@ layout: post
 title:  "创建Chrome WebUI接口"
 date:  2015-03-01
 categories: Chromium
-featured_image: /images/cover.jpg
+featured_image: /images/chromium_cover.jpg
 ---
 
 ###创建Chrome WebUI接口

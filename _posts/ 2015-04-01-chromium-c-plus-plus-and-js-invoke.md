@@ -3,7 +3,7 @@ layout: post
 title:  "Chromium C++与JS之间互调"
 date:  2015-04-01
 categories: Chromium
-featured_image: /images/cover.jpg
+featured_image: /images/chromium_cover.jpg
 ---
 
 ###Chromium C++与JS之间互调

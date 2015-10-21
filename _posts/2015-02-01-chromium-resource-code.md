@@ -3,7 +3,7 @@ layout: post
 title:  "Chromium获取源码"
 date:  2015-02-01
 categories: Chromium
-featured_image: /images/cover.jpg
+featured_image: /images/chromium_cover.jpg
 ---
 
 ###Chromium获取源码
