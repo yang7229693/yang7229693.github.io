@@ -17,6 +17,7 @@ Chrome的新标签页所展示的八宫格，主要是为了方便人们快捷�
 	/Users/*/Library/Application Support/Google/Chrome/Default/Top Sites
 	
 这个文件是一个SQLite数据库文件，通过一些工具（此处用到的是SQLiteManager），可以看到里面包含两张表，其中**thumbnails**这张表格中存储的就是八宫格所展示的数据。
+
 ![](/images/new-tab-sort-1.png)
 
 八宫格中所显示的顺序主要是通过**url_rank**这个数值来决定的，数值越小越靠前，为**-1**的则是已经删除的站点。然而这个url_rank值是如何生成的呢？我们接下来看一下另一个文件
@@ -24,6 +25,7 @@ Chrome的新标签页所展示的八宫格，主要是为了方便人们快捷�
 	/Users/*/Library/Application Support/Google/Chrome/Default/History
 
 这个文件同样是一个SQLite数据库文件，这个数据库包含9张表，对于八宫格排序相关的表格是**segments_usage**
+
 ![](/images/new-tab-sort-2.png)
 
 可以看到segments_usage表里面有一个**visit_count**，大家或许会认为，八宫格中的站点排序是根据访问次数来的吧，但是这紧紧猜对了一半，排序算法跟访问次数有关，但不全部依赖于它。好了，关子卖了这么多了，接下来就一起来看一下chromium中八宫格站点排序算法吧。
