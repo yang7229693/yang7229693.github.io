@@ -30,9 +30,9 @@ Chrome的新标签页所展示的八宫格，主要是为了方便人们快捷�
 
 可以看到segments_usage表里面有一个**visit_count**，大家或许会认为，八宫格中的站点排序是根据访问次数来的吧，但是这紧紧猜对了一半，排序算法跟访问次数有关，但不全部依赖于它。好了，关子卖了这么多了，接下来就一起来看一下chromium中八宫格站点排序算法吧。
 
-    days_ago = (now - timeslot).InDays();
-    day_visits_score = 1.0 + log(visit_count));
-    recency_boost = 1.0 + (2.0 * (1.0 / (1.0 + days_ago/7.0)));
+    days_ago = (now - timeslot).days();
+    day_visits_score = 1 + ln(visit_count);
+    recency_boost = 1 + (2 * (1 / (1 + days_ago/7)));
     score = recency_boost * day_visits_score;
     
 看起来很简单吧，其中**days_ago**是入库时间距离现在的天数，通过这个值来计算出一个**recency_boost**值，然后根据访问次数**visit_count**计算出的**day_visits_score**，与recency_boost一起计算出score，这个score值就是八宫格中站点排序的依据。
