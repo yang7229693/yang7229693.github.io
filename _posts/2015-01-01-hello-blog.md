@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello Blog :)"
-date:  2015-09-02
+date:  2015-01-01
 categories: others
 featured_image: /images/cover.jpg
 ---
