@@ -14,9 +14,9 @@ featured_image: /images/chromium_cover.jpg
 
 3、执行
 
- 	gclient --version
+	gclient --version
 
- 	gclient —version
+	gclient —version
 
  注意，需要2次。
 
