@@ -37,14 +37,14 @@ Slicing的实现过程，官网也都有，我按照官网的内容简单的总�
 	
 其实Slicing是个体力活吧，把应用中的资源整理一番，然后对相关地方的引用稍作修改即可。这样说起来比较抽象吧，直接看我弄的一个小demo的结果吧，其中我把bitcode选项关掉了。
 
-![](/images/app_thinning_1.jpg)
+![](/images/app_slicing_1.jpg)
 
 接下来我用这个简单的例子走一遍流程，希望可以对大家有所帮助吧。
 
 我新建了一个简单的程序，内容很简单，在页面上展示五张图片，其中也包括各尺寸的icon以及launch图片，都放在Assets.xcassets中。
 
 
-![](/images/app_thinning_2.jpg)
+![](/images/app_slicing_2.jpg)
 
 Archive程序，选择`Export...`，`Save for Development Deployment`，如图
 
