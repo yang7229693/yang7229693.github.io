@@ -2,7 +2,7 @@
 layout: post
 title:  "《人月神话》读书笔记"
 date:  2015-10-27
-categories: reading notes
+categories: reading-notes
 featured_image: /images/notes_cover.jpg
 ---
 
