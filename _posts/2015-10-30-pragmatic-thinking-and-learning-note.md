@@ -123,7 +123,7 @@ featured_image: /images/notes_cover.jpg
 
 >让大脑为成功形成惯例。
 
-	不作为”是敌人，而“错误”不是
+	“不作为”是敌人，而“错误”不是
 
 ####后感
 
