@@ -36,7 +36,7 @@ h2 {
 h1 {
     line-height: 1.3;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 40px;
     color: #FFF;
 }
 
@@ -113,7 +113,7 @@ article{
 
 header {
     position: relative;
-    width: 35%;
+    width: 25%;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -388,7 +388,7 @@ header ul.meta li span {
 /* Article */
 
 article {
-    width: 65%;
+    width: 75%;
     margin-left: -3px;
     margin-top: -5px;
     overflow-x: hidden;
@@ -642,7 +642,7 @@ article .post-comment{
 .info_menu {
     float: left;
 
-    width: 35%;
+    width: 25%;
     height: 100%;
 
     background-color: rgba(0,0,0,.8);
@@ -653,7 +653,7 @@ article .post-comment{
 
     width: 100px;
     margin-left: 52px;
-    margin-top: 65%;
+    margin-top: 75%;
 
     font-size: 1.2em;
 
@@ -686,7 +686,7 @@ article .post-comment{
     position: relative;
 
     float: left;
-    width: 65%;
+    width: 75%;
     height: inherit;
 
     background-color: rgba(0,0,0,.9);
