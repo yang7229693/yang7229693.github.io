@@ -91,7 +91,5 @@ Archive程序，选择`Export...`，`Save for Development Deployment`，如图
 
 xcode6生成的ipa中，`默认只支持armv7和arm64`。不再构建armv7s指令集代码，因此对于打包中iphone5设备对应的架构则显示为armv7。
 
-然后附一站设备对应系统架构图
-
-![](http://static1.squarespace.com/static/51adfbd9e4b095d664d9b869/t/5596a861e4b0eb5f837cf243/1435936865957/iOS_Support_Matrix_v3_2.pdf)
+然后附一张[设备对应系统架构图](http://static1.squarespace.com/static/51adfbd9e4b095d664d9b869/t/5596a861e4b0eb5f837cf243/1435936865957/iOS_Support_Matrix_v3_2.pdf)
 
