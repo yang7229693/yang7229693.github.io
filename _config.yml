@@ -11,3 +11,7 @@ markdown: kramdown
 highlighter: pygments
 #highlighter: false
 baseurl: # the subpath of your site, e.g. /blog/
+kramdown:
+  input:         GFM
+  auto_ids:      true
+  auto_id_prefix:'id-'
