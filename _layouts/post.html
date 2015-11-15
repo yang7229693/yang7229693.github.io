@@ -9,7 +9,7 @@ layout: default
             <ul class="meta">
                 <li>
                     <span>Published</span>
-                  {{ page.date | date_to_string }}
+                  {{ page.date | date: "%m-%d-%Y" }}
                 </li>
                 <li>
                     <span>Category</span>
