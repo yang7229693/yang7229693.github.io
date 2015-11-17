@@ -1,8 +1,8 @@
 # Site wide configuration
 
 title:            Loki`s Blog
-locale:           en_US
-url:
+locale:           zh_CN
+url:              http://www.whysodiao.com
 
 
 # Jekyll configuration
