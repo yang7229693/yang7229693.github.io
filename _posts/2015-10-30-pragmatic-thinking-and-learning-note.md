@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "《程序员的思维修炼》读书笔记"
-date:  2015-10-30
+title: 程序员的思维修炼-读书笔记
 categories: reading-notes
-featured_image: /images/notes_cover.jpg
+excerpt: 程序员的思维修炼读书笔记
+tag: [程序员的思维修炼, pragmatic thinking and learning, 读书笔记, 观后感]
+comments: true
+image:
+  feature: pic-book-1.jpg
 ---
-
-###《程序员的思维修炼》读书笔记
-
 
 ####笔记
 
@@ -15,7 +15,7 @@ featured_image: /images/notes_cover.jpg
 	
 	沟通能力
 	学习和思考能力
-	
+{: .notice}
 实用主意的本质就是做对你`有用`的事情。
 
 始终关注`情景`。
@@ -33,7 +33,8 @@ featured_image: /images/notes_cover.jpg
 	胜任者
 	精通者
 	专家
-	
+{: .notice}	
+
 新手在该技能领域经验很少或者根本没有，`需要指令`才能执行。
 
 高级新手能够开始多多少少的摆脱固定的规则，可以独自尝试任务，但仍难以解决问题。他们通常`不具有全局思维`。
@@ -51,7 +52,7 @@ featured_image: /images/notes_cover.jpg
 	从依赖规则向依赖直觉转变
 	观念的改变，从考虑各方面到只关注相关的方面
 	从问题的旁观者转变为问题涉及的系统本身的一部分
-	
+{: .notice}	
 大多数人都是高级新手。
 
 直觉和模式匹配能力超载了显性知识。
@@ -62,7 +63,7 @@ featured_image: /images/notes_cover.jpg
 	任务需要适当难度--有挑战性但可行
 	任务环境可以提供大量反馈，以便采取行动
 	提供重复犯错和纠正错误的机会
-
+{: .notice}
 通过`观察`和`模仿`来学习。
 
 保持实践以维持专家水平。
@@ -74,7 +75,7 @@ featured_image: /images/notes_cover.jpg
 	培养更多的直觉
 	认识到情境和观察情境模式的重要性
 	更好地利用我们自己的经验
-	
+{: .notice}
 每个人都有好点子，捕获所有的想法以从中获益更多。（推荐使用`奇妙清单`，全平台的任务软件）
 
 真正想要了解一只青蛙，传统的解剖不是办法，更好的方式是`构造`一只青蛙。
@@ -112,7 +113,7 @@ featured_image: /images/notes_cover.jpg
 	未知量是什么？
 	已知量是什么？
 	条件是什么？
-	
+{: .notice}
 从相似点中学习，从差异中忘却。
 
 当面对时间压力时，人最没有创造力。
@@ -124,6 +125,7 @@ featured_image: /images/notes_cover.jpg
 >让大脑为成功形成惯例。
 
 	“不作为”是敌人，而“错误”不是
+{: .notice}
 
 ####后感
 

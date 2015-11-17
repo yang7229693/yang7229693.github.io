@@ -1,17 +1,61 @@
-# Site settings
-title: 'Loki'  # Your Title
-tagline: '做有趣的事情'  # A brief tagline for your site
-sidebar_image: /images/cover.jpg
+# Site wide configuration
+
+title:            Loki`s Blog
+locale:           en_US
+url:
 
 
-# Build settings
-encoding: UTF-8
-markdown: kramdown
-#markdown: redcarpet
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
 highlighter: pygments
-#highlighter: false
-baseurl: # the subpath of your site, e.g. /blog/
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
 kramdown:
-  input:         GFM
-  auto_ids:      true
-  auto_id_prefix:'id-'
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Loki
+  avatar: bio-photo.jpg
+  bio: "iOS Developer，做有趣的事情，探寻有趣之物."
+  email: yang7229693@gmail.com
+  disqus-shortname: disqus_HNhoTv7I3F
+  twitter: #username
+  facebook: #username
+  google:
+    plus:
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: yang7229693
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

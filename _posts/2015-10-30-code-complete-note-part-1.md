@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "《代码大全》读书笔记-第一部分"
-date:  2015-10-30
+title: 代码大全-读书笔记-第一部分
 categories: reading-notes
-featured_image: /images/notes_cover.jpg
+excerpt: 代码大全第一部分读书笔记
+tag: [代码大全, code complete, 读书笔记, 观后感]
+comments: true
+image:
+  feature: pic-book-1.jpg
 ---
-
-
-###《代码大全》读书笔记-第一部分
-
-<br>
 
 《代码大全》读书笔记目录
 
@@ -33,6 +31,7 @@ featured_image: /images/notes_cover.jpg
 	如何架构
 	如何编写
 	如何优化
+{: .notice}
 
 ####读书笔记
 
@@ -41,6 +40,7 @@ featured_image: /images/notes_cover.jpg
 隐喻的优点在于`其可预期`的效果，能被所有的人理解。不必要的沟通和误解也因此大为减低，学习与教授更为快速。隐喻是对概念进行`内在化`和`抽象`的一种途径，它让人们在`更高的层面`上思考问题，从而避免低层次的错误。
 
 	隐喻是一种启发式的方法，而非算法。
+{: .notice}
 
 对于编程来说，最大的挑战还是将问题`概念化`。
 
@@ -51,6 +51,7 @@ featured_image: /images/notes_cover.jpg
 	System Accretion(系统生长)
 	Building Software(构建软件)
 	The Intellectual Toolbox(智慧工具箱)
+{: .notice}
 
 `Loki`：作者在书中所列举的几种软件隐喻，恰恰是软件工程发展的一个个阶段，以及人们对软件工程认知的过程，从最开始的当作书写、培育，到系统生长，其代表为增量式开发，再到构建软件，类比建筑学中的build过程，包括问题定义、架构设计、构建、优化、评审和详查。用Fred Brooks的话说，是计算机硬件的发展速度太快，导致了软件没有更上。是否是因为这个原因，人们才会去从其他发展比较久、比较完备的系统中去寻找类比的方法，例如软件设计中的设计模式等。
 
@@ -78,6 +79,7 @@ featured_image: /images/notes_cover.jpg
 
 	架构指的是适用于整个系统范围的设计约束
 	高层设计指的是适用于子系统层次或多个类层次上的设计约束
+{: .notice}
 
 架构的质量决定了系统的“概念完整性”。一个经过慎重考虑的架构为“从顶层到底层维护系统的概念完整性”提供了必备的结构和体系，为程序员提供了指引。
 

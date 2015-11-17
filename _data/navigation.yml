@@ -1,0 +1,10 @@
+# Site navigation links
+
+- title: 文章
+  url: /posts/
+
+- title: 项目
+  url: /project/
+
+- title: 关于
+  url: /about/

@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Hello Blog :)"
-date:  2015-01-01
+title:  Hello Blog :)
+excerpt: Hello My Blog :)
 categories: others
-featured_image: /images/cover.jpg
+tag : [intro]
+comments: true
+image:
+  feature: pic-hello-1.jpg
 ---
-
-###Hello Blog
 
 > "Hello World"
 

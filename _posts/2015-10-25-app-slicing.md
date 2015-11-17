@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "App Slicing"
-date:  2015-10-25
+title: App Slicing分析
 categories: iOS
-featured_image: /images/ios_cover.jpg
+excerpt: 苹果iOS9中的App Slicing原理分析
+tag: [iOS, iOS9, app slicing, app thinning, bitcode, odr, On-Demand Resources]
+comments: true
+image:
+  feature: pic-ios-2.jpg
 ---
 
-###App Slicing
-
+{% include _toc.html %}
 
 ####关于App Thinning
 
@@ -18,7 +20,7 @@ App Thinning主要包括三部分，[苹果官网有详细的介绍](https://dev
 	App Slicing
 	Bitcode
 	ODR(On-Demand Resources)
-
+{: .notice}
 其中Bitcode是需要各种库的支持，在XCode 7+中的`Build Settings`中`Enable Bitcode`即可，ODR一般用于游戏中多关卡场景较多，在此不做过多的阐述。
 
 下面主要说下Slicing，就字面意思就是分割了，苹果最终想要实现的是针对不同设备来提供不同的安装包，去除不必要的各种资源文件来达到减小安装包大小的效果。盗用一张苹果官网的图
@@ -27,14 +29,14 @@ App Thinning主要包括三部分，[苹果官网有详细的介绍](https://dev
 
 原理很简单，只需要注意只有在iOS9+的设备上才会支持。
 
-####App Slicing
+####App Slicing分析
 
-Slicing的实现过程，官网也都有，我按照官网的内容简单的总结一下吧
+App Slicing的实现过程，官网也都有，我按照官网的内容简单的总结一下吧
 
 	1. 在asset catalog中指定目标设备，并提供多种分辨率版本的图片（1x 2x 3x）
 	2. App打包，导出不同设备的variant进行测试
 	3. 上传到iTunes Connect
-	
+{: .notice}
 其实Slicing是个体力活吧，把应用中的资源整理一番，然后对相关地方的引用稍作修改即可。这样说起来比较抽象吧，直接看我弄的一个小demo的结果吧，其中我把bitcode选项关掉了。
 
 ![](/images/app_slicing_1.jpg)
@@ -55,7 +57,7 @@ Archive程序，选择`Export...`，`Save for Development Deployment`，如图
 	App Thinning Size Report.txt
 	app-thinning.plist
 	Apps
-
+{: .notice}
 其中Apps文件夹下面包含着的就是各设备对应的variant，如图
 
 ![](/images/app_thinning_4.jpg)
@@ -72,7 +74,7 @@ Archive程序，选择`Export...`，`Save for Development Deployment`，如图
 
 	执行文件
 	Assets.car
-	
+{: .notice}
 对于`执行文件`，使用lipo命令可以看到，主要是包含的处理器架构不同导致的执行文件大小不同，对于6s来说，只包含了arm64架构，对于all，包含了armv7和arm64.
 
 对于`Assets.car`，就其名称就可以猜测出，是资源文件的打包，使用工具对其提取资源，6s中包含了一套2x图，符合猜测，对于all，提取出的资源文件包含了1x、2x、3x三套资源与我们猜测的一致。

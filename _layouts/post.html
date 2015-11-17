@@ -1,62 +1,77 @@
----
-layout: default
----
-<header style="background-image: url({{ site.baseurl }}{{ page.featured_image }});">
-    <div class="container post-container">
-        <a href="{{ site.baseurl }}/" class="home_button"></a>
-        <div class="inner-container">
-            <h1>{{ page.title }}</h1>
-            <ul class="meta">
-                <li>
-                    <span>Published</span>
-                  {{ page.date | date: "%m-%d-%Y" }}
-                </li>
-                <li>
-                    <span>Category</span>
-                    {{ page.categories }}
-                </li>
-            </ul>      
-        </div>
-        <ul class="pagination">
-            {% if page.previous.url %}
-            <li class="previous">
-                <a href="{{ site.baseurl }}{{ page.previous.url }}">Previous</a>
-            </li>
-            {% endif %}
-            {% if page.next.url %}
-            <li class="next">
-                <a href="{{ site.baseurl }}{{ page.next.url }}">Next</a>
-            </li>
-            {% endif %}
-        </ul>
-    </div>
-</header>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
 
-<article>
-    <div class="container">
+<body class="post">
 
-        {{ content }}
+{% include _browser-upgrade.html %}
 
-        <div class="post-comment">
-            <span>Comments</span>
-            <!-- 多说评论框 start -->
-            <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="yang7229693.github.io{{ page.url }}"></div>
-            <!-- 多说评论框 end -->
-        </div>
-    </div>
-    <a id="returnTop"></a> 
-</article>
+{% include _navigation.html %}
 
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    var duoshuoQuery = {short_name:"loki"};
-        (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
-  </script>
-<!-- 多说公共JS代码 end -->
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      {% if page.link %}
+        <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+      {% else %}
+        <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+      {% endif %}
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      {{ content }}
+      <hr />
+      <footer role="contentinfo">
+        {% if page.share != false %}{% include _social-share.html %}{% endif %}
+        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  {% if site.owner.disqus-shortname and page.comments == true %}
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  {% endif %}
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  {% if site.related_posts.size > 0 %}
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
+    <ul>
+    {% for post in site.related_posts limit:3 %}
+      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  {% endif %}
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>
