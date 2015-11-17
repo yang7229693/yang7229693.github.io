@@ -11,7 +11,7 @@ image:
 
 《代码大全》读书笔记目录
 
-1. [第一部分 打好基础](http://www.whysodiao.com/reading-notes/2015/10/30/code-complete-note-part-1.html)
+1. [第一部分 打好基础](http://www.whysodiao.com/reading-notes/effective-objective-c-2-note/)
 2. 第二部分 创建高质量代码
 3. 第三部分 变量
 4. 第四部分 语句
