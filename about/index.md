@@ -2,7 +2,6 @@
 layout: page
 title: 关于
 tags: [about, loki]
-comments: true
 image:
   feature: pic-about-1.jpg
 ---
