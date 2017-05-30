@@ -10,6 +10,7 @@ timezone: 'Asia/Shanghai'
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
+pygments: false
 sass:
   sass_dir: _sass
   style: compressed
