@@ -15,14 +15,17 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+encoding: "utf-8"
 
 kramdown:
+  input: GFM
+  hard_wrap: false
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  input:  GFM
-  use_coderay: true
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 
 # Site owner
