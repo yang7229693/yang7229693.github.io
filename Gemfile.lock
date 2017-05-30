@@ -44,7 +44,6 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    minimal-mistakes-jekyll (4.0.1)
     octopress (3.0.11)
       jekyll (>= 2.0)
       mercenary (~> 0.3.2)
@@ -84,7 +83,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 2.5.3)
   jekyll-sitemap
-  minimal-mistakes-jekyll
   octopress (~> 3.0)
 
 BUNDLED WITH
