@@ -43,7 +43,7 @@ image:
 
 	http://dev.chromium.org/developers/how-tos/get-the-code
 {: .notice}
-###更新代码
+### 更新代码
 
 	cd  CHROMIUM_DIR
 
@@ -53,7 +53,7 @@ image:
 {: .notice}
 如果想加快速度，可以执行gclient sync —jobs＝16（jobs数目可以随意指定）
 
-###编译代码
+### 编译代码
 更快编译可以加上
 
 	GYP_DEFINES=fastbuild=1 CHROMIUM_DIR/src/build/gyp_chromium

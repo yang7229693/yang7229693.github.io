@@ -10,7 +10,7 @@ image:
 ---
 
 
-####C++调用JS函数
+#### C++调用JS函数
 
 ![](/images/webkit_c_js.png)
 
@@ -99,7 +99,7 @@ void RenderFrameHostImpl::OnJavaScriptExecuteResponse(
 executeScriptAndReturnValue方法在src/third_party/Webkit/Source/web/WebLocalFrameImpl中，v8是如何去执行js代码的，感兴趣的同学可以自己扒一下相关代码吧。
 
 
-####JS函数调用C++代码
+#### JS函数调用C++代码
 
 JS通过chrome.send函数来调用在C++中注册过的函数，大致过程跟C++调用JS函数类似吧，只不过是从webkit发起的，通过IPC从render到browser去执行对应的函数。直接上代码吧，在src/content/render/web_ui_extension.cc中：
 {%highlight c++%}

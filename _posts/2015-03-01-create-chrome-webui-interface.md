@@ -11,7 +11,7 @@ image:
 
 {% include _toc.html %}
 
-####1 创建WebUI页面
+#### 1 创建WebUI页面
 
 WebUI的资源在src/chrome.browser/resources下面，当创建WebUI资源时，需要遵循[Web Development Style Guide](https://www.chromium.org/developers/web-development-style-guide) 下面是一个简单的例子：
 
@@ -72,7 +72,7 @@ cr.define('hello_world', function() {
 
 document.addEventListener('DOMContentLoaded', hello_world.initialize);
 {%endhighlight%}
-####2 把资源文件添加到Chrome
+#### 2 把资源文件添加到Chrome
 
 使用src/chrome/browser/browser_resources.grd文件来添加资源文件。
 
@@ -82,7 +82,7 @@ src/chrome/browser/browser_resources.grd文件里面添加hello_world的html、c
 <include name="IDR_HELLO_WORLD_CSS" file="resources\hello_world.css" type="BINDATA" />
 <include name="IDR_HELLO_WORLD_JS" file="resources\hello_world.js" type="BINDATA" />
 {%endhighlight%}
-3 为新的chrome URL添加URL标识
+#### 3 为新的chrome URL添加URL标识
 
 URL标识被存放在src/chrome/common/url_constants.*，在这里添加指向新资源的URL标识
 {%highlight c++%}
@@ -96,7 +96,7 @@ src/chrome/common/url_constants.cc
 const char kChromeUIHelloWorldURL[] = "chrome://hello-world/";
 const char kChromeUIHelloWorldHost[] = "hello-world";
 {%endhighlight%}
-####4 添加本地化字符串
+#### 4 添加本地化字符串
 
 在html页面上显示的一些字符串，建议按照chrome的标准，进行本地化，这样方便输出多语言版本，存放字符串的文件为src/chrome/app/generated_resources.grd，这个文件内对应的是英文字符串，多语言文件存放在src/chrome/app/resources/generated_resources_*.xtb，例如中文的字符串对应文是generated_resources_zh-CN.xtb。
     generated_resources.grd里面的字符串首位的空格都会忽略，添加的时候如果可以加一些特殊字符来区分，例如’&lt;’、’&gt;’、 ‘&amp;’、 ‘&quot;’、 ‘&apos;’。其中translation id必须唯一，如果多个相同会编译错误。
@@ -115,7 +115,7 @@ src/chrome/app/resources/generated_resources_zh-CN.xtb
 <translation id=“7856356408326784566">你好 世界！</translation>
 <translation id=“1952586428076772168">欢迎来到这个奇妙的Hello World页面 <ph name="WELCOME_NAME" />！</translation>
 {%endhighlight%}
-####5 添加处理chrome://hello-world/请求的WebUI类
+#### 5 添加处理chrome://hello-world/请求的WebUI类
 
 接下来我们需要一个类来处理新资源URL的请求，通常这个类是继承自ChromeWebUI（WebUI对话框则是继承自HtmlDialogUI）
 {%highlight c++%}
@@ -175,7 +175,7 @@ HelloWorldUI::HelloWorldUI(content::WebUI* web_ui)
 HelloWorldUI::~HelloWorldUI() {
 }
 {%endhighlight%}
-####6 添加新资源到Chrome
+#### 6 添加新资源到Chrome
 
 将新添加的类添加到Chrome里面，如果添加新的类的话，需要在src/chrome/chrome_browser_ui.gypi文件中添加，这样可以在项目编译的时候链接这些文件。
 {%highlight xml%}
@@ -187,7 +187,7 @@ src/chrome/chrome_browser_ui.gypi
 'browser/ui/webui/hello_world_ui.h',
 {%endhighlight%}
 
-####7 添加WebUI URL的解析
+#### 7 添加WebUI URL的解析
 
 Chrome WebUI工厂方法类里面添加处理新请求的代码
 {%highlight c++%}
@@ -198,7 +198,7 @@ src/chrome/browser/ui/webui/chrome_web_ui_controller_factory.cc
 if (url.host() == chrome::kChromeUIHelloWorldHost)
   return &NewWebUI<HelloWorldUI>;
 {%endhighlight%}
-####9 添加与js的回调
+#### 9 添加与js的回调
 
 如果我们想通过js调用cC++去执行代码时，可以在对应的类里面添加
 {%highlight c++%}
@@ -268,11 +268,11 @@ return {
 这个调用是异步的，必须等待C++那边去调用js函数来得到结果
 
 
-###创建WebUI对话框
+### 创建WebUI对话框
 
 创建WebUI对话框只与上面的有两个地方不同，处理请求的类必须继承自HtmlDialogUI类，创建一个HtmlDialogUIDelegate类来负责运行对话框。
 
-####1 修改继承的父类
+#### 1 修改继承的父类
 {%highlight c++%}
 src/chrome/browser/ui/webui/hello_world_ui.h
 
@@ -282,7 +282,7 @@ src/chrome/browser/ui/webui/hello_world_ui.h
 - class HelloWorldUI : public ChromeWebUI {
 + class HelloWorldUI : public HtmlDialogUI {
 {%endhighlight%}
-####2 创建HtmlDialogUIDelegate类来实例化对话框
+#### 2 创建HtmlDialogUIDelegate类来实例化对话框
 {%highlight c++%}
 src/chrome/browser/ui/webui/hello_world.h
 
@@ -380,7 +380,7 @@ bool HelloWorldDialog::ShouldShowDialogTitle() const {
 {%endhighlight%}
 你可以用HelloWorldDialog::ShowDialog()来调用这个新的对话框。
 
-####3 传递参数给WebUI对话框
+#### 3 传递参数给WebUI对话框
 
 通过HtmlDialogUIDelegate::GetDialogArgs()函数来传递参数给对话框。
 {%highlight c++%}
