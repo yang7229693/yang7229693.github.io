@@ -11,7 +11,7 @@ image:
 
 
 1. [第一部分 打好基础](http://www.whysodiao.com/reading-notes/code-complete-note-part-1/)
-2. `[第二部分 创建高质量代码](http://www.whysodiao.com/reading-notes/code-complete-note-part-2/)`
+2. [第二部分 创建高质量代码](http://www.whysodiao.com/reading-notes/code-complete-note-part-2/)
 3. [第三部分 变量](http://www.whysodiao.com/reading-notes/code-complete-note-part-3/)
 4. [第四部分 语句](http://www.whysodiao.com/reading-notes/code-complete-note-part-4/)
 5. [第五部分 代码改善](http://www.whysodiao.com/reading-notes/code-complete-note-part-5/)
