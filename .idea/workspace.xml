@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-07-11-code-complete-note-part-7.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/GitHub_Blog_node_modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-06-02-code-complete-note-part-7.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/GitHub_Blog.iml" afterPath="$PROJECT_DIR$/.idea/GitHub_Blog.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/index.md" afterPath="$PROJECT_DIR$/project/index.md" />
     </list>
     <ignored path="GitHub_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,12 +22,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-07-11-code-complete-note-part-7.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-07-11-code-complete-note-part-7.md">
+      <file leaf-file-name="2017-09-03-android-note.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-09-03-android-note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="634">
-                <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <first_editor relative-caret-position="604">
+                <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -68,6 +61,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-06-02-code-complete-note-part-6.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-11-code-complete-note-part-6.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-02-code-complete-note-part-7.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-07-12-one-series-and-one-book.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-09-03-android-note.md" />
       </list>
     </option>
   </component>
@@ -83,8 +78,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="310" />
-    <option name="y" value="49" />
+    <option name="x" value="186" />
+    <option name="y" value="101" />
     <option name="width" value="1553" />
     <option name="height" value="861" />
   </component>
@@ -106,6 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,8 +145,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,15 +250,17 @@
       <workItem from="1497393490268" duration="28000" />
       <workItem from="1497393654328" duration="61000" />
       <workItem from="1497393730236" duration="873000" />
-      <workItem from="1499724933801" duration="3954000" />
+      <workItem from="1499724933801" duration="5386000" />
+      <workItem from="1500242750795" duration="654000" />
+      <workItem from="1504424838628" duration="97000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4916000" />
+    <option name="totallyTimeSpent" value="7099000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="310" y="49" width="1553" height="861" extended-state="0" />
+    <frame x="186" y="101" width="1553" height="861" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24533162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -308,13 +305,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_data/authors.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/_footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -621,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +619,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
             <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -641,7 +629,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="244">
             <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="45" selection-end-column="7" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -652,7 +639,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="469">
             <caret line="85" column="7" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="7" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -663,7 +649,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="530">
             <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -672,8 +657,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-11-code-complete-note-part-7.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="634">
-            <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-03-android-note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="604">
+            <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
