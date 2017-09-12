@@ -39,7 +39,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="602">
-                <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+                <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -97,7 +97,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="218" />
     <option name="y" value="23" />
     <option name="width" value="1534" />
@@ -251,15 +251,15 @@
       <workItem from="1504881448885" duration="11000" />
       <workItem from="1504881471888" duration="12000" />
       <workItem from="1505174282965" duration="4263000" />
-      <workItem from="1505223082267" duration="20000" />
+      <workItem from="1505223082267" duration="110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11498000" />
+    <option name="totallyTimeSpent" value="11588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="23" width="1534" height="1057" extended-state="1" />
+    <frame x="218" y="23" width="1534" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22555411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -707,7 +707,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="602">
-            <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
