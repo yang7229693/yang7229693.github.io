@@ -80,4 +80,9 @@ APK压缩优化：Facebook Redex
 
 单元测试：Robolectric
 
+Android性能优化：http://www.csdn.net/article/2015-04-15/2824477-android-performance
+
+Android AIDL：
+http://blog.csdn.net/luoyanglizi/article/details/51980630
+http://blog.csdn.net/luoyanglizi/article/details/52029091
 
