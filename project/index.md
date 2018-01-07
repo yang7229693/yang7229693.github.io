@@ -12,7 +12,7 @@ image:
 
 >**腾讯**
 
-    翻译君(Android)
+    腾讯翻译君(Android)
     闲贝(Android)
     QQ回收(H5)
     众译君(微信公众号)
