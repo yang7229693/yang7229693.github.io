@@ -61,7 +61,7 @@ onPause可以用来干啥，停止动画或者那些占用CPU操作的地方，�
     // is short because it directly impacts the responsiveness of starting the
     // next activity.
     static final int PAUSE_TIMEOUT = 500;
-    
+{: .notice}
     
 ##### onStop
 
