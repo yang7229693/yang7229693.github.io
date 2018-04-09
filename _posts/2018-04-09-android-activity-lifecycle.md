@@ -9,8 +9,6 @@ image:
   feature: pic-book-1.jpg
 ---
 
-## 喜闻乐见之Activity生命周期
-
 > Activity的生命周期，对于Android开发者来说，再熟悉不过了。但是我们接触到的资料，绝大部分都只是谈了一些表面上的东西，例如各个回调的顺序等等。本文试图换个角度来讲解，也希望对各位读者有所帮助。
 
 
@@ -31,27 +29,27 @@ image:
 
 在回答这些问题之前，先来回顾下Activity的各个阶段，下面的英文部分出自[Google Android官方文档](https://developer.android.com/reference/android/app/Activity.html?hl=zh-cn)。
 
-#####onCreate
+##### onCreate
 
 > Called when the activity is first created. <font color='red'>This is where you should do all of your normal static set up: create views, bind data to lists, etc.</font> This method also provides you with a Bundle containing the activity's previously frozen state, if there was one. Always followed by onStart().
 
 直接看重点，onCreate是用来干啥的，创建view、绑定data的地方。是初始化Activity的地方，setContentView以及获取控件都应该放在这里去做。
 
-#####onStart
+##### onStart
 
 > Called when the activity is <font color='red'>becoming visible to the user.</font>
 Followed by onResume() if the activity comes to the foreground, or onStop() if it becomes hidden.
 
 onPause会被调用，是在Activity正在对用户变得可见的时候。也就是说这个时候，对于用户来说不是真正的可见，也不可去响应用户的输入。
 
-#####onResume
+##### onResume
 
 > Called when the activity <font color='red'>will start interacting with the user.</font> At this point your activity is at the top of the activity stack, with user input going to it.
 Always followed by onPause().
 
 onResume是在将要可以产生交互的时候被调用的，也就是说，还不能响应用户的输入操作。在这个阶段，Activity已经是处在栈顶了。
 
-#####onPause
+##### onPause
 
 > Called when the system is about to start resuming a previous activity. <font color='red'>This is typically used to commit unsaved changes to persistent data, stop animations and other things that may be consuming CPU, etc.</font> Implementations of this method <font color='red'>must be very quick</font>  because the next activity will not be resumed until this method returns.
 Followed by either onResume() if the activity returns back to the front, or onStop() if it becomes invisible to the user.
@@ -65,20 +63,20 @@ onPause可以用来干啥，停止动画或者那些占用CPU操作的地方，�
     static final int PAUSE_TIMEOUT = 500;
     
     
-#####onStop
+##### onStop
 
 > Called when the activity is <font color='red'>no longer visible to the user</font>, because another activity has been resumed and is covering this one. This may happen either because a new activity is being started, an existing one is being brought in front of this one, or this one is being destroyed.
 Followed by either onRestart() if this activity is coming back to interact with the user, or onDestroy() if this activity is going away.
 
 onStop的描述很简单，Activity对用户不可见时调用，但是文档后面Killable一栏显示的是YES，也就是说，onStop有可能会被强制结束掉而不完整的执行。
 
-#####onDestroy
+##### onDestroy
 
 > The final call you receive before your activity is destroyed. This can happen either because the activity is finishing (someone called finish() on it, or because the system is temporarily destroying this instance of the activity to save space. <font color='red'>You can distinguish between these two scenarios with the isFinishing() method.</font>
 
 onDestroy是在Activity要被释放掉时调用的，但是这个被释放，有主动的（手动去调用finish()）和被动的（系统回收），可以通过isFinishing来区分这两种场景。
 
-#####onSaveInstanceState
+##### onSaveInstanceState
 
 > This method is called <font color='red'>before an activity may be killed</font> so that when it comes back some time in the future it can restore its state. 
 
@@ -94,7 +92,7 @@ onDestroy是在Activity要被释放掉时调用的，但是这个被释放，有
 
 最后，这个方法的调用时机，在不同的系统中不同，从Android P开始，它是在onStop之后调用的，在之前的系统中，则是在onStop之前调用的。但是是否发生在onPause前后，则看具体情况。
 
-#####onRestoreInstanceState
+##### onRestoreInstanceState
 
 > This method is called after onStart() when the activity is being re-initialized from a previously saved state, given here in savedInstanceState. Most implementations will simply use onCreate(Bundle) to restore their state, but it is sometimes convenient to do it here after all of the initialization has been done or to allow subclasses to decide whether to use your default implementation. <font color='red'>The default implementation of this method performs a restore of any view state that had previously been frozen by onSaveInstanceState(Bundle).</font>
 

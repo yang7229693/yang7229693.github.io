@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="" />
+    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md" afterPath="$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md" />
+    </list>
     <ignored path="GitHub_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="242">
-                <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <first_editor relative-caret-position="220">
+                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -251,12 +253,12 @@
       <workItem from="1520581573487" duration="859000" />
       <workItem from="1522146616708" duration="2000" />
       <workItem from="1523272439736" duration="44000" />
-      <workItem from="1523272556380" duration="834000" />
+      <workItem from="1523272556380" duration="924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13378000" />
+    <option name="totallyTimeSpent" value="13468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="622" y="86" width="1802" height="1223" extended-state="0" />
@@ -696,8 +698,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
