@@ -116,6 +116,7 @@ onDestroy是在Activity要被释放掉时调用的，但是这个被释放，有
     I/SecondActivity: =====SecondActivity=====onWindowFocusChanged
 {: .notice}
 
+
 从打印的log可以看出，跟推断的一样，首先调用的是FirstActivity的onPause，然后才是resume SecondActivity。
 
 > setContentView如果放在onStart或者onResume中，会有什么问题吗？
@@ -126,6 +127,7 @@ onDestroy是在Activity要被释放掉时调用的，但是这个被释放，有
     I/SecondActivity: =====SecondActivity=====Load Time:57
     I/SecondActivity: =====SecondActivity=====Load Time:57
 {: .notice}
+
 
 三次时间几乎一样的，也就是说，如果只是单丛初次启动的效率来说，在三个地方去进行setContentView是没有任何差别的。但是为甚么官方说应该放在onCreate里面去处理了，这是因为，onCreate在正常状况下，只会被调用一次，而onStart以及onResume都会被调用多次，放在这里面去做的话，在onResume的过程，会增加额外的耗时。
 
