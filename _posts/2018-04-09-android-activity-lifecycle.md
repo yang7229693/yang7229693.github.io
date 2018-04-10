@@ -108,7 +108,13 @@ onDestroy是在Activity要被释放掉时调用的，但是这个被释放，有
 
 在正常情况下，按照文档说的，首先会去调用FirstActivity的onPause方法，在onPause方法结束完毕后，然后调用SecondActivity的onCreate、onStart、onResume，最后是FirstActivity的onStop。这个是根据文档来推断的，我们实际跑一下程序。
 
-![](/images/activity_lifecycle_2.png)
+    I/FirstActivity: =====FirstActivity=====onPause
+    I/FirstActivity: =====FirstActivity=====onWindowFocusChanged
+    I/SecondActivity: =====SecondActivity=====onCreate
+    I/SecondActivity: =====SecondActivity=====onStart
+    I/SecondActivity: =====SecondActivity=====onResume
+    I/SecondActivity: =====SecondActivity=====onWindowFocusChanged
+{: .notice}
 
 从打印的log可以看出，跟推断的一样，首先调用的是FirstActivity的onPause，然后才是resume SecondActivity。
 
@@ -116,7 +122,10 @@ onDestroy是在Activity要被释放掉时调用的，但是这个被释放，有
 
 从官方文档来看，也只是说应该把setContentView放在onCreate中，并没有说必须放在这里，所以应该也不会有显示以及调用的问题吧。还是跑一下程序看看，分别将setContentView以及设置点击事件放在onStart以及onResume中，跑了下程序，没有出现显示问题。但是这个仅仅是显示上的问题，会不会存在效率的问题呢？我们来打印一下时间，以调用onCreate到onWindowFocusChanged之间的时间，作为Activity加载时间，来进行对比
 
-![](/images/activity_lifecycle_3.png)
+    I/SecondActivity: =====SecondActivity=====Load Time:56
+    I/SecondActivity: =====SecondActivity=====Load Time:57
+    I/SecondActivity: =====SecondActivity=====Load Time:57
+{: .notice}
 
 三次时间几乎一样的，也就是说，如果只是单丛初次启动的效率来说，在三个地方去进行setContentView是没有任何差别的。但是为甚么官方说应该放在onCreate里面去处理了，这是因为，onCreate在正常状况下，只会被调用一次，而onStart以及onResume都会被调用多次，放在这里面去做的话，在onResume的过程，会增加额外的耗时。
 
