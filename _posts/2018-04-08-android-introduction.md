@@ -72,7 +72,6 @@ assets：可被AssetManager访问的资源文件夹，不会被特殊处理。
 AndroidManifest.xml：manifest文件。
 classes.dex：classes文件通过DEX编译后的文件格式，在Dalvik虚拟机上运行的主要代码部分。
 resources.arsc：包含预编译的应用资源，例如XML等。
-
 ```
 {: .notice}
 
