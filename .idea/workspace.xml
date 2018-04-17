@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="" />
+    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md" afterPath="$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md" />
+    </list>
     <ignored path="GitHub_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="12" />
+              <first_editor relative-caret-position="728">
+                <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -36,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <first_editor relative-caret-position="626">
+                <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -260,12 +262,12 @@
       <workItem from="1523328643574" duration="66000" />
       <workItem from="1523328776675" duration="20000" />
       <workItem from="1523328909808" duration="67000" />
-      <workItem from="1523973746206" duration="210000" />
+      <workItem from="1523973746206" duration="313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13985000" />
+    <option name="totallyTimeSpent" value="14088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="143" y="23" width="1802" height="1057" extended-state="0" />
@@ -693,8 +695,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="12" />
+          <first_editor relative-caret-position="728">
+            <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
@@ -704,8 +706,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <first_editor relative-caret-position="626">
+            <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />

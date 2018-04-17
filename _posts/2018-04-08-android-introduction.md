@@ -74,6 +74,7 @@ classes.dex：classes文件通过DEX编译后的文件格式，在Dalvik虚拟�
 resources.arsc：包含预编译的应用资源，例如XML等。
 
 ```
+{: .notice}
 
 ### 构建工具
 
