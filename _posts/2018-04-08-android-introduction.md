@@ -29,7 +29,7 @@ Android系统体系结构分为四层。自顶向下分别是应用程序、应�
 
 这一层包含两部分，核心库以及Android运行环境。这一层提供了一个很关键的模块，Dalvik虚拟机。
 
-Dalvik虚拟机采用了Linux的很多核心的特性，例如内存管理以及多线程。它最初不是为Java设计的，并不能直接运行Java的bytecode指令，而是运行Dalvik executable，简称dx。为此Android提供了dx工具，用来将Java bytecode转换为dx。
+Dalvik虚拟机采用了Linux的很多核心的特性，例如内存管理以及多线程。它最初不是为Java设计的，并不能直接运行Java的字节码，而是运行Dalvik executable，简称dx。为此Android提供了dx工具，用来将Java字节码转换为dx。
 
 ### 应用程序框架
 
