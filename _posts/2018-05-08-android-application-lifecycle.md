@@ -171,5 +171,5 @@ onLowMemory与onTrimMemory都是可以进行内存回收操作的地方，两者
 9. [Android源码解析之（十三）-->apk安装流程](https://blog.csdn.net/qq_23547831/article/details/51210682)
 10. [How Android manages background processes?](https://github.com/mcgill-cpslab/mobile-research/wiki/How-Android-manages-background-processes%3F)
 11. [Android Low Memory Killer](http://www.programering.com/a/MjNzADMwATE.html)
-13. [Android low memory killer 机制](https://my.oschina.net/wolfcs/blog/288259)
-14. [How to Tweak Android Low Memory Killer to Your Needs](http://www.droidviews.com/tweak-android-low-memory-killer-needs/)
+12. [Android low memory killer 机制](https://my.oschina.net/wolfcs/blog/288259)
+13. [How to Tweak Android Low Memory Killer to Your Needs](http://www.droidviews.com/tweak-android-low-memory-killer-needs/)
