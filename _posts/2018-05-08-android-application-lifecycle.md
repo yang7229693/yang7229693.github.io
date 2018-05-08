@@ -26,13 +26,13 @@ image:
 
 ![App Launch Summary](/images/app-launch-summary.jpg)
 
-点击事件通过Binder IPC机制最终被转换成startActivity(intent)，而App相关信息的解析以及处理则在安装的时候就已经完毕。当startActivity的时候，ActivityManagerService的操作如下：
+点击事件通过Binder IPC机制最终被转换成startActivity(intent)，而App相关信息的解析以及处理则在安装的时候就已经完毕。当startActivity的时候，ActivityManagerService（AMS）的操作如下：
 
 * 第一步是intent解析。通过PackageManager的resolveIntent()方法，收集目标intent对象的信息。
 * 第二步是权限检查。通过grantUriPermissionLocked()方法，检查用户是否有足够的权限去调用intent的目标组件。
 * 第三步是创建新的任务。如果用户有足够的权限，ActivityManagerService就会检查目标Activity是否需要被加载在新的任务中。这个任务是根据Intent Flag来进行创建的。
 
-最后检测进程记录表（ProgressRecord）是否存在。如果不存在，则需要通过ActivityManager来创建新的进程。
+最后检测进程记录表（ProgressRecord）是否存在。如果不存在，则需要通过ActivityManagerService来创建新的进程。
 
 ### 进程创建
 

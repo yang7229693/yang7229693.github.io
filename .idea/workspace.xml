@@ -24,8 +24,8 @@
       <file leaf-file-name="2018-05-08-android-application-lifecycle.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="174" column="2" selection-start-line="174" selection-start-column="2" selection-end-line="174" selection-end-column="2" />
+            <state relative-caret-position="510">
+              <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -239,12 +239,12 @@
       <workItem from="1523328909808" duration="67000" />
       <workItem from="1523973746206" duration="376000" />
       <workItem from="1525741605541" duration="282000" />
-      <workItem from="1525741976217" duration="297000" />
+      <workItem from="1525741976217" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15341000" />
+    <option name="totallyTimeSpent" value="15802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="265" y="23" width="1698" height="1057" extended-state="0" />
@@ -477,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="174" column="2" selection-start-line="174" selection-start-column="2" selection-end-line="174" selection-end-column="2" />
+        <state relative-caret-position="510">
+          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
         </state>
       </provider>
     </entry>
