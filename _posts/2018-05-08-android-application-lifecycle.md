@@ -122,9 +122,9 @@ ActivityManagerService通过调用startProcessLocked()方法来创建一个新�
 
 ### 管理
 
-关于进程的管理，首先需要知道Low Memory Killer（LMK）这个概念。它是基于Linux的Out of Memory Mechanism（OOM机制）改进而来的。LMK是一个内核层组件，是一个进程杀手。它的主要作用是在系统低内存状态时，释放掉那些不太重要进程的内存，让系统更加流畅。
+关于进程的管理，首先需要知道Low Memory Killer（LMK）这个概念。它是基于Linux的Out of Memory Mechanism（OOM机制）改进而来的。LMK是一个内核层组件，是一个进程杀手。它的主要作用是在系统低内存状态时，释放掉那些不太重要进程的内存，让系统更加流畅。OOM只有当系统内存不足的时候才会启动检查，而LMK则不仅是在应用程序分配内存发现内存不足时启动检查，它也会定时地进行检查。
 
-每一个进程根据其重要性，都包含一个oom_adj值，AMS会去动态的更新oom_adj。当系统处在低内存状态时，LMK会根据oom_adj大小，杀死相关的进程。oom_adj值得范围是-17~15，一个进程的oom_adj值越高，它被杀死的概率就越大。
+每一个进程根据其重要性，都包含一个oom_adj值，oom_adj的大小和进程的类型以及进程被调度的次序有关，AMS会去动态的更新oom_adj。当系统处在低内存状态时，LMK会根据oom_adj大小，杀死相关的进程。oom_adj值得范围是-17~15，一个进程的oom_adj值越高，它被杀死的概率就越大。
 
 整个过程就是AMS更新oom_adj值，LMK去挑选并杀死进程。
 
