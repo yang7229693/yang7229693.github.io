@@ -2,7 +2,7 @@
 layout: post
 title: 喜闻乐见之Activity生命周期
 categories: reading-notes
-excerpt: Activity生命周期解析
+excerpt: 本文主要介绍了Activity生命周期以及谷歌这么设计的原因
 tag: [Android, Activity, 生命周期, LifeCycle]
 comments: true
 image:

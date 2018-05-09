@@ -2,7 +2,7 @@
 layout: post
 title: 喜闻乐见之Android简介
 categories: reading-notes
-excerpt: Android简介
+excerpt: 本文主要介绍了Android架构、启动流程、沙箱机制、APK简介、Dalvik以及ART
 tag: [Android, APK， Dalvik, ART]
 comments: true
 image:

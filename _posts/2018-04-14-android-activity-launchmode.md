@@ -2,7 +2,7 @@
 layout: post
 title: 喜闻乐见之Activity的launchMode
 categories: reading-notes
-excerpt: Activity启动方式
+excerpt: 本文主要介绍了任务栈以及Activity的几种启动方式，并分析了背后的原因
 tag: [Android, Activity, 启动方式, launchMode]
 comments: true
 image:
