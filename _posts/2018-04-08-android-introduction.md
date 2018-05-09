@@ -15,33 +15,75 @@ image:
 
 ## 架构
 
-![Android体系结构图](/images/android-system-architecture.jpg)
+![Android体系结构图](/images/android-system-architecture.png)
 
-Android系统体系结构分为四层。自顶向下分别是应用程序、应用程序框架、系统运行库以及Linux内核。
-
-其中，蓝色的代表Java程序，黄色的为运行在Java上的虚拟机，绿色部分为C/C++编写的程序库，红色部分为内核代码。可以看出，Android本身是基于Linux内核而开发出的一个移动操作系统。
+Android是基于Linux内核开发出的一个移动操作系统，系统结构大致可以分为五层。自顶向下分别是系统应用程序、Java API框架、系统运行库、硬件抽象层以及Linux内核。
 
 ### Linux内核
 
-这一层为Android系统提供一系列硬件驱动，但是谷歌对其中做了部分修改，最主要的两部分为：Binder以及电源管理。
+Linux内核是Android平台的基础。例如ART依赖于Linux内核层的线程以及内存管理。Android
+使用Linux内核，是因为其良好的安全特性以及硬件驱动的支持。
+
+### 硬件抽象层
+
+Android的硬件抽象层，简单来说，就是对Linux内核驱动程序的封装，向上提供接口，屏蔽低层的实现细节。由于Android跟Linux所采用的证书不同，如果把驱动都放在Linux内核层，发布的时候就需要公布源代码，硬件的相关参数和实现就会被公开，这对厂家来说，损失非常大。因此，通过添加这一层，使得商业秘密隐藏起来，减小厂家的损失。单纯从架构角度来说，这一层并不是必须的，只是商业上的一种妥协。
 
 ### 系统运行库
 
-这一层包含两部分，核心库以及Android运行环境。这一层提供了一个很关键的模块，Dalvik虚拟机。
+这一层包含两部分，核心库以及Android运行环境。这一层提供了一个很关键的模块，Art（早期为Dalvik）虚拟机。
 
-Dalvik虚拟机采用了Linux的很多核心的特性，例如内存管理以及多线程。它最初不是为Java设计的，并不能直接运行Java的字节码，而是运行Dalvik executable，简称dx。为此Android提供了dx工具，用来将Java字节码转换为dx。
-
-### 应用程序框架
+### Java API框架
 
 应用程序框架为应用程序提供了许多更高层的服务，例如Activity Manager、Resource Manager、Notifications Manager等。
 
-### 应用程序
+### 系统应用程序
 
-包含一系列App，例如通讯录、浏览器等等。
+包含一系列系统App，例如通讯录、浏览器等等。
+
+## Android启动流程
+
+Android系统的整个启动过程，基本上可以划分为三个阶段：
+
+1. Bootloader引导
+2. Kernel启动
+3. Android启动
+
+### 引导程序（bootloader）
+
+引导程序是Android操作系统开始运行前的一个小程序，引导程序是运行的第一个程序，它不是Android
+操作系统的一部分，是OEM厂商或者运营商`加锁和限制`的地方。
+
+引导程序分两个阶段执行：
+
+1. 检测外部的RAM以及加载对第二阶段有用的程序。
+2. 引导程序设置网络、内存等。
+
+### 内核（kernel）
+
+Android内核与桌面linux内核启动的方式差不多。内核启动时，设置缓存、被保护存储器、计划列表，加载驱动。当内核完成系统设置，然后启动init进程。
+
+#### init进程
+
+init是第一个进程，可以说是root进程或者所有进程的父进程。init进程有两个责任：
+
+1. 挂在目录。
+2. 运行init.rc脚本。
+
+init.rc文件是由被称为Android初始化语言所编写的，有特定的格式以及规则。init进程创建完毕后，就可以在屏幕上看到Android的Logo了。
+
+#### Zygote进程
+
+Zygote是一个虚拟器进程，是由init进程fork出来的，在系统引导的时候启动。Zygote会预加载以及初始化系统的核心库类，使得虚拟机共享代码、低内存占用以及最小的启动时间成为可能。在Android系统中，所有应用程序进程以及系统服务进程（SystemService）都是由Zygote进程fork出来的，它建立了App运行所需要的环境，是非常重要的进程。在这个阶段可以看到启动动画。
+
+### Android启动
+
+在此过程中，主要是系统服务以及其他服务的创建过程。核心服务如Activity管理器、包管理器以及电池服务等。其他服务如通知管理器、网络连接服务以及设备存储监视服务等。
+
+一旦系统服务在内存中跑起来，Android变完成了引导过程，这个时候就会收到开机启动广播`ACTION_BOOT_COMPLETED`。
 
 ## 沙箱机制
 
-每个Android应用都运行在自己的沙箱内：
+Android利用了Linux的基于用户的保护策略（user-based protection），作为鉴定和分离应用程序资源的一种手段。每个Android应用都运行在自己的沙箱内：
 
 * Android操作系统是一种多用户Linux系统，其中的每个应用都是一个不同的用户；
 * 默认情况下，系统会为每个应用分配一个唯一的Linux用户ID（该ID仅由系统使用，应用并不知晓）。系统为应用中的所有文件设置权限，使得只有分配给该应用的用户ID才能访问这些文件；
@@ -72,6 +114,7 @@ assets：可被AssetManager访问的资源文件夹，不会被特殊处理。
 AndroidManifest.xml：manifest文件。
 classes.dex：classes文件通过DEX编译后的文件格式，在Dalvik虚拟机上运行的主要代码部分。
 resources.arsc：包含预编译的应用资源，例如XML等。
+
 ```
 {: .notice}
 
@@ -99,5 +142,14 @@ ART是一种在Android操作系统上的运行环境，ART能够在第一次安�
 * ART采用预编译（AOT,Ahead-Of-Time）技术，启动运行会更快。
 * 对于同一个app，ART所需要的存储空间比Dalvik大，安装的时间也会变长。
 * ART不用实时编译，因此对于CPU的使用减少了很多，续航能力更强一些。
-* ART有着更高的GC效率。
+* ART有着更高的GC效率，更友好的debug支持。
+
+## 参考
+
+
+1. [Android启动过程深入解析](http://blog.jobbole.com/67931/)
+2. [Android系统启动流程](https://www.jianshu.com/p/2ca0f6c974c9)
+3. [Platform Architecture](https://developer.android.com/guide/platform/)
+4. [System and kernel security](https://source.android.com/security/overview/kernel-security)
+5. [Android硬件抽象层（HAL）概要介绍和学习计划](https://blog.csdn.net/luoshengyang/article/details/6567257)
 
