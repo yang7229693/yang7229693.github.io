@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-14-android-activity-launchmode.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-04-14-android-activity-launchmode.md" afterDir="false" />
-    </list>
+    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="" />
     <ignored path="GitHub_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-05-08-android-application-lifecycle.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-05-08-android-application-lifecycle.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -58,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-04-14-android-activity-launchmode.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-04-14-android-activity-launchmode.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-14-android-activity-launchmode.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -133,10 +128,10 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="146" />
-    <option name="y" value="23" />
-    <option name="width" value="1504" />
-    <option name="height" value="1012" />
+    <option name="x" value="89" />
+    <option name="y" value="93" />
+    <option name="width" value="1415" />
+    <option name="height" value="887" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -229,18 +224,17 @@
       <workItem from="1525741976217" duration="758000" />
       <workItem from="1525863191064" duration="110000" />
       <workItem from="1525871536838" duration="21000" />
-      <workItem from="1525871612343" duration="151000" />
+      <workItem from="1525871612343" duration="506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16084000" />
+    <option name="totallyTimeSpent" value="16439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="146" y="23" width="1504" height="1012" extended-state="0" />
-    <editor active="true" />
+    <frame x="89" y="93" width="1415" height="887" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26196808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20918728" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" side_tool="true" />
@@ -430,15 +424,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/2015-05-01-chromium-new-tab-sites-sort.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-13-android-reduce-dex-method-count-2.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-12-android-reduce-dex-method-count.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -466,6 +451,15 @@
           <first_editor relative-caret-position="60">
             <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
           </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
         </state>
       </provider>
