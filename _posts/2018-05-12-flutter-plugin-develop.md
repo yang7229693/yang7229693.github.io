@@ -136,6 +136,10 @@ buildTypes {
 
 ## 如何引用
 
+对插件的引用有两种，已经发布的和未发布的。
+
+### 引用发布的库
+
 flutter项目的很多资源管理都在根目录的pubspec.yaml下面，类似于js中的一些包管理一样，在`dependencies`加上我们需要引入的库，例如引入url_launcher库：
 
 ```
@@ -146,7 +150,7 @@ dependencies:
 
 如果这个库包含了一些平台相关的东西，例如需要在native层进行使用的话，则需要在对应的native项目单独做引用。
 
-### Android
+#### Android
 
 修改android/build.gradle的dependencies处做引用：
 
@@ -157,7 +161,7 @@ dependencies {
 ```
 {: .notice}
 
-### iOS
+#### iOS
 
 修改ios/hello.podspec文件
 
@@ -168,13 +172,40 @@ Pod::Spec.new do |s|
 ```
 {: .notice}
 
-### 引用冲突
+#### 引用冲突
 
 引用不同的库可能会导致一些冲突，例如A和B两个插件，都包含了C插件，但是所需的版本不同。因此我们可以采取以下措施避免这种问题：
 
 * 尽量使用范围版本而不是指定一个特定的版本。
 * 强制统一冲突的插件版本
 * 对于native层，android可以通过force命令强制指定版本，而iOS这边，Cocoapods则不支持引用的override功能。
+
+### 引用未发布的库
+
+引用未发布的库有两种方式，通过本地路径和git地址的方式：
+
+#### 基于Path的引用方式：
+
+这种方式主要针对本地的未发布的库，引用的路径可以是相对或者绝对路径。
+
+```
+dependencies:
+  plugin1:
+    path: ../plugin1/
+```
+{: .notice}
+
+#### 基于Git的引用方式：
+
+这种方式针对存放在git上的库，其中path是可选的，可以定位到某个子目录
+```
+dependencies:
+  package1:
+    git:
+      url: git://github.com/flutter/packages.git
+      path: packages/package1   
+```
+{: .notice}
 
 ## 参考
 
@@ -183,3 +214,4 @@ Pod::Spec.new do |s|
 3. [Flutter for Android Developers](https://flutter.io/flutter-for-android/)
 4. [Writing custom platform-specific code with platform channels](https://flutter.io/platform-channels/)
 5. [Developing Packages & Plugins](https://flutter.io/developing-packages/#step-2b-add-android-platform-code-javakt)
+6. [Using Packages](https://flutter.io/using-packages/)
