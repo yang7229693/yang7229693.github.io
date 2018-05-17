@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="" />
+    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="GitHub_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-05-12-flutter-plugin-develop.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-05-12-flutter-plugin-develop.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-12-flutter-plugin-develop.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="130">
-                <caret line="182" column="11" lean-forward="true" selection-start-line="182" selection-start-column="11" selection-end-line="182" selection-end-column="11" />
+              <first_editor relative-caret-position="493">
+                <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-05-17-flutter-different-cross-platform.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-17-flutter-different-cross-platform.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="472">
+                <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,6 +89,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-14-android-activity-launchmode.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-12-flutter-plugin-develop.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-17-flutter-different-cross-platform.md" />
       </list>
     </option>
   </component>
@@ -95,10 +110,10 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="174" />
-    <option name="y" value="90" />
-    <option name="width" value="1415" />
-    <option name="height" value="887" />
+    <option name="x" value="68" />
+    <option name="y" value="100" />
+    <option name="width" value="1756" />
+    <option name="height" value="914" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -194,17 +209,18 @@
       <workItem from="1525871612343" duration="506000" />
       <workItem from="1526130971555" duration="383000" />
       <workItem from="1526133735557" duration="66000" />
+      <workItem from="1526561611461" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16888000" />
+    <option name="totallyTimeSpent" value="17050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="174" y="90" width="1415" height="887" extended-state="0" />
+    <frame x="68" y="100" width="1756" height="914" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20918728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16856492" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" side_tool="true" />
@@ -443,6 +459,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-13-android-reduce-dex-method-count-2.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-12-android-reduce-dex-method-count.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-1955">
@@ -451,7 +468,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-14-android-activity-launchmode.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -474,6 +490,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
@@ -482,13 +499,22 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-12-flutter-plugin-develop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="130">
-            <caret line="182" column="11" lean-forward="true" selection-start-line="182" selection-start-column="11" selection-end-line="182" selection-end-column="11" />
+          <first_editor relative-caret-position="493">
+            <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-17-flutter-different-cross-platform.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="472">
+            <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
           </first_editor>
           <second_editor />
         </state>
