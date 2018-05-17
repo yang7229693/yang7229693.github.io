@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 喜闻乐见之应用的生命周期
+title: 喜闻乐见之Android应用的生命周期
 categories: reading-notes
 excerpt: 讲述了App的启动流程、Application的生命周期、进程的回收机制
 tag: [Android, LifeCycle，Recycle, Progress]
