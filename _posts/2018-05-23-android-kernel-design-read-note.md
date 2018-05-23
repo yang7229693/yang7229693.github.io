@@ -9,8 +9,6 @@ image:
   feature: pic-book-1.jpg
 ---
 
-# 读书笔记-深入理解Android内核设计细想
-
 ## 读后感
 
 这本书是在电脑上粗略的翻完了，看的过程中也是选择性的浏览，后面肯定会续上正版书籍。
@@ -94,9 +92,9 @@ Bundle就是继承自Parcelable，采用键值对的方式存储数据，并在�
 Binder Driver是一个标准的Linux驱动，会将自己注册成一个misc device，并向上层提供一个/dev/binder节点，但是并不对应真实的硬件设备，其运行于内核态，可以提供open、ioctl、mmap等常用的文件操作。
 
 * binder_open，打开Binder驱动，会在/proc系统目录生成各种管理信息，并将它加入Binder的全局管理中。Binder驱动为用户创建一个它自己的binder_proc实体，用户对Binder设备的操作将以这个对象为基础。
-* binder_mmap，mmap可以把设备指定的内存块直接映射到应用程序的内存空间中，Binder驱动只需要一次复制，就可以实现两个进程间的数据共享。如下图所示
+* binder_mmap，mmap可以把设备指定的内存块直接映射到应用程序的内存空间中，Binder驱动只需要一次复制，就可以实现两个进程间的数据共享。
 
-![](/images/binder\ mmap复制操作.png)
+![Binder](/images/binder mmap复制操作.png)
 
 * binder_ioctl，承担了Binder驱动的大部分业务，例如读写操作、设置支持的最大线程数、线程退出、获取Binder版本号等。实现了应用进程与Binder驱动之间的命令交互。
 
@@ -109,7 +107,7 @@ ServiceManager的构建包括以下几个步骤：
 * 调用binder_become_context_manager方法，提升自己权限为Manager。
 * 进入循环。
 
-ServiceManager中没有消息队列，从Binder驱动获取消息。`主要工作时完成“Binder Server Name”（域名）和“Server Handle”（IP地址）间对应关系的查询而存在的。`通过内部维护着的一个svclist列表，来存储对应关系，所有查询和注册都是基于这个表展开的。
+ServiceManager中没有消息队列，从Binder驱动获取消息。主要工作时完成“Binder Server Name”（域名）和“Server Handle”（IP地址）间对应关系的查询而存在的。通过内部维护着的一个svclist列表，来存储对应关系，所有查询和注册都是基于这个表展开的。
 
 ServiceManager提供以下几种服务：
 
