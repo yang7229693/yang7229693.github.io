@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-23-android-kernel-design-read-note.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-23-android-kernel-design-read-note.md" afterDir="false" />
-    </list>
+    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="" />
     <ignored path="GitHub_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-android-kernel-design-read-note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="530">
-                <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <first_editor relative-caret-position="50">
+                <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -124,8 +122,8 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-111" />
-    <option name="y" value="40" />
+    <option name="x" value="215" />
+    <option name="y" value="42" />
     <option name="width" value="1362" />
     <option name="height" value="968" />
   </component>
@@ -225,15 +223,15 @@
       <workItem from="1526133735557" duration="66000" />
       <workItem from="1526561611461" duration="641000" />
       <workItem from="1526731352520" duration="845000" />
-      <workItem from="1527034906860" duration="441000" />
+      <workItem from="1527034906860" duration="546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18815000" />
+    <option name="totallyTimeSpent" value="18920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-111" y="40" width="1362" height="968" extended-state="0" />
+    <frame x="215" y="42" width="1362" height="968" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21732746" />
@@ -531,8 +529,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-android-kernel-design-read-note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="530">
-            <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <first_editor relative-caret-position="50">
+            <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
