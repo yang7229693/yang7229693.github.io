@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="" />
+    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="GitHub_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,24 +21,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-05-17-flutter-different-cross-platform.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-05-17-flutter-different-cross-platform.md">
+      <file leaf-file-name="2018-05-27-forever-young.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-27-forever-young.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="635">
-                <caret line="66" selection-start-line="66" selection-end-line="66" selection-end-column="11" />
+              <first_editor relative-caret-position="495">
+                <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-05-27-flutter-layout.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-05-27-flutter-layout.md">
+      <file leaf-file-name="2015-12-30-2015-movie-list.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-12-30-2015-movie-list.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-119">
-                <caret line="184" column="11" selection-start-line="184" selection-start-column="11" selection-end-line="184" selection-end-column="11" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-05-23-android-kernel-design-read-note.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-android-kernel-design-read-note.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,6 +105,7 @@
         <option value="$PROJECT_DIR$/about/index.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-23-android-kernel-design-read-note.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-27-flutter-layout.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-27-forever-young.md" />
       </list>
     </option>
   </component>
@@ -213,18 +228,19 @@
       <workItem from="1526561611461" duration="641000" />
       <workItem from="1526731352520" duration="845000" />
       <workItem from="1527034906860" duration="546000" />
-      <workItem from="1527383641621" duration="226000" />
+      <workItem from="1527383641621" duration="244000" />
+      <workItem from="1527407710423" duration="2657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19146000" />
+    <option name="totallyTimeSpent" value="21821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="94" y="44" width="1362" height="968" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21732746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18722467" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" side_tool="true" />
@@ -262,16 +278,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-09-android-activity-lifecycle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-14-android-activity-launchmode.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -406,7 +412,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/2015-10-27-the-mythical-man-month-note.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2015-11-20-becoming-a-technical-leader-note.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2015-12-06-productive-projects-and-teams-note.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2015-12-30-2015-movie-list.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2015-04-01-chromium-c-plus-plus-and-js-invoke.md" />
     <entry file="file://$PROJECT_DIR$/_includes/_author-bio.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -486,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-android-kernel-design-read-note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="9" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-12-flutter-plugin-develop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -519,8 +514,38 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-27-flutter-layout.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-119">
-            <caret line="184" column="11" selection-start-line="184" selection-start-column="11" selection-end-line="184" selection-end-column="11" />
+          <first_editor relative-caret-position="301">
+            <caret line="212" column="10" lean-forward="true" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-12-30-2015-movie-list.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-android-kernel-design-read-note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-27-forever-young.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="495">
+            <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
