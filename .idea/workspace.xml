@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ac2a87c0-d519-4510-ac2f-48484c443b4f" name="Default" comment="" />
     <ignored path="GitHub_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +23,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-27-forever-young.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="495">
-                <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -229,12 +227,12 @@
       <workItem from="1526731352520" duration="845000" />
       <workItem from="1527034906860" duration="546000" />
       <workItem from="1527383641621" duration="244000" />
-      <workItem from="1527407710423" duration="2657000" />
+      <workItem from="1527407710423" duration="3012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21821000" />
+    <option name="totallyTimeSpent" value="22176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="94" y="44" width="1362" height="968" extended-state="0" />
@@ -544,8 +542,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-27-forever-young.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="495">
-            <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           </first_editor>
           <second_editor />
         </state>
