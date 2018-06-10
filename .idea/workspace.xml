@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="197">
-                <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <first_editor relative-caret-position="330">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -224,15 +224,15 @@
       <workItem from="1528021098788" duration="15000" />
       <workItem from="1528021162761" duration="290000" />
       <workItem from="1528607535799" duration="248000" />
-      <workItem from="1528627931299" duration="103000" />
+      <workItem from="1528627931299" duration="143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22832000" />
+    <option name="totallyTimeSpent" value="22872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="81" width="1362" height="968" extended-state="0" />
+    <frame x="619" y="52" width="1362" height="968" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18722467" />
@@ -553,8 +553,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="197">
-            <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>

@@ -25,7 +25,7 @@ camera试着运行了下demo，感觉这个库可以使用，直接将相机预�
 
 先上一张Android端的拍照效果图：
 
-![Flutter 相机定制](/images/flutter-camera-sample.jpeg)
+![Flutter 相机定制](http://whysodiao.com/images/flutter-camera-sample.jpg)
 
 ## Android端全屏拉伸问题
 
