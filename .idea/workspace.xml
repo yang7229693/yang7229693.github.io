@@ -33,12 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-10-flutter-widget-layout-02.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-10-flutter-widget-layout-02.md">
+      <file leaf-file-name="2018-06-11-flutter-custom-camera.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+              <first_editor relative-caret-position="197">
+                <caret line="27" selection-start-line="27" selection-end-line="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -96,6 +96,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-05-27-forever-young.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-03-flutter-widget-container.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-10-flutter-widget-layout-02.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md" />
       </list>
     </option>
   </component>
@@ -115,9 +116,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="281" />
-    <option name="y" value="81" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="619" />
+    <option name="y" value="52" />
     <option name="width" value="1362" />
     <option name="height" value="968" />
   </component>
@@ -129,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +146,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,15 +223,16 @@
       <workItem from="1527407710423" duration="3012000" />
       <workItem from="1528021098788" duration="15000" />
       <workItem from="1528021162761" duration="290000" />
-      <workItem from="1528607535799" duration="158000" />
+      <workItem from="1528607535799" duration="248000" />
+      <workItem from="1528627931299" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22639000" />
+    <option name="totallyTimeSpent" value="22832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="81" width="1362" height="968" extended-state="0" />
+    <frame x="69" y="81" width="1362" height="968" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18722467" />
@@ -271,9 +273,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md" />
     <entry file="file://$PROJECT_DIR$/_data/authors.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -420,6 +419,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-13-android-reduce-dex-method-count-2.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-12-android-reduce-dex-method-count.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-1955">
@@ -428,7 +428,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-14-android-activity-launchmode.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -451,6 +450,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
@@ -459,7 +459,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/about/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -531,6 +530,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-10-flutter-widget-layout-02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-flutter-widget-container.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -541,11 +550,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-10-flutter-widget-layout-02.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <first_editor relative-caret-position="197">
+            <caret line="27" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor />
         </state>
