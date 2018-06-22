@@ -33,12 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-11-flutter-custom-camera.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md">
+      <file leaf-file-name="2018-06-22-flutter-widget-3.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-22-flutter-widget-3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
               </first_editor>
               <second_editor />
             </state>
@@ -97,6 +97,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-06-03-flutter-widget-container.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-10-flutter-widget-layout-02.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-22-flutter-widget-3.md" />
       </list>
     </option>
   </component>
@@ -116,9 +117,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="619" />
-    <option name="y" value="52" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="502" />
+    <option name="y" value="23" />
     <option name="width" value="1362" />
     <option name="height" value="968" />
   </component>
@@ -225,14 +226,15 @@
       <workItem from="1528021162761" duration="290000" />
       <workItem from="1528607535799" duration="248000" />
       <workItem from="1528627931299" duration="143000" />
+      <workItem from="1529677530815" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22872000" />
+    <option name="totallyTimeSpent" value="22955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="619" y="52" width="1362" height="968" extended-state="1" />
+    <frame x="502" y="23" width="1362" height="968" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18722467" />
@@ -273,7 +275,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md" />
     <entry file="file://$PROJECT_DIR$/_data/authors.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -540,6 +541,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-flutter-widget-container.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -550,11 +561,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-flutter-custom-camera.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-22-flutter-widget-3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
           </first_editor>
           <second_editor />
         </state>
