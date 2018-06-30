@@ -25,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-flutter-widget-container.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="9" selection-end-column="3" />
+              <first_editor relative-caret-position="294">
+                <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="44" />
               </first_editor>
               <second_editor />
             </state>
@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-22-flutter-widget-3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+              <first_editor relative-caret-position="885">
+                <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,6 +54,7 @@
       <find>margin-bottom: 1.5em</find>
       <find>.highlight</find>
       <find>binder_mmap</find>
+      <find>why</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,12 +227,12 @@
       <workItem from="1528021162761" duration="290000" />
       <workItem from="1528607535799" duration="248000" />
       <workItem from="1528627931299" duration="143000" />
-      <workItem from="1529677530815" duration="83000" />
+      <workItem from="1529677530815" duration="484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22955000" />
+    <option name="totallyTimeSpent" value="23356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="502" y="23" width="1362" height="968" extended-state="0" />
@@ -554,8 +555,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-flutter-widget-container.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="9" selection-end-column="3" />
+          <first_editor relative-caret-position="294">
+            <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
@@ -564,8 +565,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-22-flutter-widget-3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <first_editor relative-caret-position="885">
+            <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           </first_editor>
           <second_editor />
         </state>
