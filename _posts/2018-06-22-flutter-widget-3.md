@@ -2,14 +2,14 @@
 layout: post
 title: Flutter 布局（三）- FittedBox、AspectRatio、ConstrainedBox详解
 categories: reading-notes
-excerpt: 本文主要介绍Flutter布局中的FittedBox、AspectRatio、ConstrainedBox，详细介绍了其布举行为以及使用场景，并对源码进行了分析。
+excerpt: 本文主要介绍Flutter布局中的FittedBox、AspectRatio、ConstrainedBox，详细介绍了其布局行为以及使用场景，并对源码进行了分析。
 tag: [Flutter, Layout, Widget, FittedBox, AspectRatio, ConstrainedBox]
 comments: true
 image:
   feature: pic-book-1.jpg
 ---
 
-> 本文主要介绍Flutter布局中的FittedBox、AspectRatio、ConstrainedBox，详细介绍了其布举行为以及使用场景，并对源码进行了分析。
+> 本文主要介绍Flutter布局中的FittedBox、AspectRatio、ConstrainedBox，详细介绍了其布局行为以及使用场景，并对源码进行了分析。
 
 ## 1. FittedBox
 

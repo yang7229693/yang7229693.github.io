@@ -2,14 +2,14 @@
 layout: post
 title: Flutter 布局（二）- Padding、Align、Center详解
 categories: reading-notes
-excerpt: 本文主要介绍Flutter布局中的Padding、Align以及Center控件，详细介绍了其布举行为以及使用场景，并对源码进行了分析。
+excerpt: 本文主要介绍Flutter布局中的Padding、Align以及Center控件，详细介绍了其布局行为以及使用场景，并对源码进行了分析。
 tag: [Flutter, Layout, Widget, Padding. Align, Center]
 comments: true
 image:
   feature: pic-book-1.jpg
 ---
 
-> 本文主要介绍Flutter布局中的Padding、Align以及Center控件，详细介绍了其布举行为以及使用场景，并对源码进行了分析。
+> 本文主要介绍Flutter布局中的Padding、Align以及Center控件，详细介绍了其布局行为以及使用场景，并对源码进行了分析。
 
 ## 1. Padding
 
