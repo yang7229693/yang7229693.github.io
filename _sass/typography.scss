@@ -94,8 +94,9 @@ figcaption {
    ========================================================================== */
 
 .notice {
-	margin-top: 1.5em;
-	padding: .5em 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0 1em;
 	text-indent: 0;
 	@include font-rem(14);
 	background-color: #FFFCFA;
