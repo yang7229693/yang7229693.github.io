@@ -9,8 +9,6 @@ image:
   feature: pic-book-1.jpg
 ---
 
-# Flutter 布局（五）- LimitedBox、Offstage、OverflowBox、SizedBox详解
-
 > 本文主要介绍Flutter布局中的LimitedBox、Offstage、OverflowBox、SizedBox四种控件，详细介绍了其布局行为以及使用场景，并对源码进行了分析。
 
 ## 1. LimitedBox
