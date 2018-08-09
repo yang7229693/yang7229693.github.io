@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Flutter 布局（六）- SizedOverflowBox、Transform、CustomSingleChildLayout详解
+title: Flutter 布局（七）- Row、Column详解
 categories: reading-notes
-excerpt: 本文主要介绍Flutter布局中的SizedOverflowBox、Transform、CustomSingleChildLayout三种控件，详细介绍了其布局行为以及使用场景，并对源码进行了分析。
-tag: [Flutter, Layout, Widget, SizedOverflowBox、Transform、CustomSingleChildLayout]
+excerpt: 本文主要介绍Flutter布局中的Row、Column控件，详细介绍了其布局行为以及使用场景，并对源码进行了分析。
+tag: [Flutter, Layout, Widget, Row、Column]
 comments: true
 image:
   feature: pic-book-1.jpg
@@ -74,7 +74,7 @@ Row(
 )
 ```
  {: .notice}
- 
+
 一个很简单的例子，使用Expanded控件，将一行的宽度分成四个等分，第一、三个child占1/4的区域，第二个child占1/2区域，由flex属性控制。
 
 ### 1.5 源码解析
