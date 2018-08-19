@@ -22,28 +22,30 @@
     <session id="1666980958">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="4" />
+          <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="49" />
+          <entry key="md" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="49" />
+          <entry key="Markdown" value="81" />
         </counts>
       </usages-collector>
     </session>
@@ -54,11 +56,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-08-10-flutter-layout-widget-8.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-flutter-layout-widget-9.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="584">
-                <caret line="399" column="12" selection-start-line="399" selection-start-column="12" selection-end-line="399" selection-end-column="12" />
+              <first_editor relative-caret-position="409">
+                <caret line="729" column="11" selection-start-line="729" selection-start-column="11" selection-end-line="729" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -125,6 +127,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-07-25-flutter-layout-widget-6.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-01-flutter-layout-widget-7.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-10-flutter-layout-widget-8.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-20-flutter-layout-widget-9.md" />
       </list>
     </option>
   </component>
@@ -158,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +178,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,11 +268,12 @@
       <workItem from="1532475945874" duration="203000" />
       <workItem from="1533082338475" duration="87000" />
       <workItem from="1533912012874" duration="157000" />
+      <workItem from="1534720856899" duration="187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24547000" />
+    <option name="totallyTimeSpent" value="24734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="47" width="1553" height="1033" extended-state="0" />
@@ -313,13 +317,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -422,6 +419,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-13-android-reduce-dex-method-count-2.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-12-android-reduce-dex-method-count.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-android-application-lifecycle.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-1955">
@@ -430,7 +428,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-14-android-activity-launchmode.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -453,6 +450,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-08-android-introduction.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
@@ -461,7 +459,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/about/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -626,8 +623,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-10-flutter-layout-widget-8.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="584">
-            <caret line="399" column="12" selection-start-line="399" selection-start-column="12" selection-end-line="399" selection-end-column="12" />
+          <first_editor relative-caret-position="525">
+            <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-20-flutter-layout-widget-9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="409">
+            <caret line="729" column="11" selection-start-line="729" selection-start-column="11" selection-end-line="729" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
