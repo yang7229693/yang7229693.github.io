@@ -3,7 +3,7 @@ layout: post
 title: Flutter 布局控件完结篇
 categories: reading-notes
 excerpt: 本文主要介绍Flutter布局中的ListBody、ListView、CustomMultiChildLayout控件，详细介绍了其布局行为以及使用场景，并对源码进行了分析。
-tag: [Flutter, Layout, Widget, ListBody, ListView, CustomMultiChildLayout详解]
+tag: [Flutter, Layout, Widget]
 comments: true
 image:
   feature: pic-book-1.jpg
