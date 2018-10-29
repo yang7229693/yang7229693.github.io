@@ -69,6 +69,7 @@ Animation类是Flutter动画中核心的抽象类，它包含动画的当前值�
 void addListener(VoidCallback listener);
 void removeListener(VoidCallback listener);
 ```
+{: .notice}
 
 * 状态的回调函数：
 
@@ -76,6 +77,7 @@ void removeListener(VoidCallback listener);
 void addStatusListener(AnimationStatusListener listener);
 void removeStatusListener(AnimationStatusListener listener);
 ```
+{: .notice}
 
 ### 2.2 curve.dart
 
@@ -86,6 +88,7 @@ void removeStatusListener(AnimationStatusListener listener);
 ```
 double transform(double t);
 ```
+{: .notice}
 
 例如一个线性的插值器，实现代码如下。
 
@@ -97,6 +100,7 @@ class _Linear extends Curve {
   double transform(double t) => t;
 }
 ```
+{: .notice}
 
 该文件下面定义了非常多类型的插值器，具体的实现不一一展开了。Flutter定义了一系列的插值器，封装在Curves类中，有下面13种效果。
 
@@ -128,6 +132,7 @@ class _Linear extends Curve {
 ```
 T transform(double t);
 ```
+{: .notice}
 
 它的最主要的子类是Tween，一个线性的估值器，实现如下，非常的简单，就是一个线性函数。
 
@@ -147,6 +152,7 @@ T transform(double t) {
   return lerp(t);
 }
 ```
+{: .notice}
 
 在Tween的基础上实现了不同类型的估值器。
 
@@ -184,6 +190,7 @@ TickerProvider定义了可以发送Ticker对象的接口，
 ```
 Ticker createTicker(TickerCallback onTick);
 ```
+{: .notice}
 
 Ticker能干什么呢？
 
@@ -215,6 +222,7 @@ Simulation定义了基于物理动画的相关接口，具体有位置、速度�
 double x(double time);
 double dx(double time);
 ```
+{: .notice}
 
 GravitySimulation的实现如下，其中_a加速度，_x是初始距离，_v是初始速度：
 
@@ -225,6 +233,7 @@ double x(double time) => _x + _v * time + 0.5 * _a * time * time;
 @override
 double dx(double time) => _v + time * _a;
 ```
+{: .notice}
 
 相信学过高中物理的读者，对这公式不会陌生。其他几种具体实现不在此处一一展开了哈。如果扩展这个物理动画库的话，也很好去扩展，掌握一些物理公式，就可以去仿照实现了。
 
